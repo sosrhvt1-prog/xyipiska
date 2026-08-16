@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "triaxvisual",
+  "version": "1.0.0",
+  "name": "Triax Visual",
+  "description": "Клиентский визуальный мод. Открой ClickGUI по Right Shift и включи Trail.",
+  "authors": ["Triax"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/triaxvisual/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.triax.visual.TriaxVisualClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
